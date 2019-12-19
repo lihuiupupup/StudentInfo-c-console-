@@ -128,7 +128,7 @@ int waitIDUQCmd(const char *cmdName)
 			if (success)
 			{
 				Log("删除成功\n");
-				throw ClearStackException("toDelete");
+				throw ClearStackException("toMain");
 			}
 			else
 			{
